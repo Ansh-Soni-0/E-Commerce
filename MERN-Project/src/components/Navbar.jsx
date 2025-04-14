@@ -10,10 +10,15 @@ const Navbar = () => {
   return (
     <div 
     className='flex items-center justify-between py-5 font-medium'>
-        <img 
-        src={assets.logo} 
-        alt="webside-logo" 
-        className='w-36'/>
+        <Link
+        to='/'
+        >
+            <img 
+            src={assets.logo} 
+            alt="webside-logo" 
+            className='w-36'/>
+        </Link>
+        
 
 
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
@@ -104,7 +109,7 @@ const Navbar = () => {
 
                 <NavLink 
                 onClick={() => setVisible(false)}
-                to='/Home' 
+                to='/' 
                 className='py-2 pl-6 border border-gray-200 hover:bg-black hover:text-white transition-all'>
                     HOME
                 </NavLink>
