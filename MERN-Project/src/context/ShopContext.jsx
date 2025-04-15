@@ -1,22 +1,25 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 import { products } from "../assets/frontend_assets/assets";
 
 export const ShopContext = createContext();
 
-const ShopContextProvider = ({children}) => {
+const ShopContextProvider = ({ children }) => {
+  const currency = "$";
+  const delivery_fee = 10;
+  const [search, setSearch] = useState("");
+  const [showSearch, setShowSearch] = useState(false);
 
-    const currency     = '$';
-    const delivery_fee =  10;
+  const value = {
+    products,
+    currency,
+    delivery_fee,
+    search,
+    setSearch,
+    showSearch,
+    setShowSearch,
+  };
 
-    const value = {
-        products , currency , delivery_fee
-    }
-
-    return (
-        <ShopContext.Provider value={value}>
-            {children}
-        </ShopContext.Provider>
-    )
-}
+  return <ShopContext.Provider value={value}>{children}</ShopContext.Provider>;
+};
 
 export default ShopContextProvider;
