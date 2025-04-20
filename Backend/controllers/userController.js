@@ -12,7 +12,7 @@ const loginUser = async (req , res) => {
         const {email , password} = req.body;
         const user = await userModel.findOne({email});
         if(!user){
-            return res.status(200).json({success:false , message:"user doesn't exist"})
+            return res.status(200).json({success:false , message:"user doesn't exist Please Sign UP"})
         }
 
         const isMatch = await bcript.compare(password , user.password)
