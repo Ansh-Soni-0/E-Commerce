@@ -5,6 +5,7 @@ const { connectToMongoDb } = require('./config/mongodb')
 const { connectClodinary } = require("./config/cloudinary")
 const userRouter = require("./routes/userRoute")
 const productRouter = require("./routes/productRoute")
+const cartRouter = require("./routes/cartRoute")
 
 // app config
 const app = express()
@@ -22,6 +23,7 @@ app.use(cors())
 
 app.use('/api/user' , userRouter)
 app.use('/api/product' , productRouter)
+app.use('/api/cart' , cartRouter)
 
 app.get('/' ,  (req , res) => {
     res.send("API WORKING")
