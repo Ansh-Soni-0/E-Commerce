@@ -9,6 +9,7 @@ import Collection from "./pages/Collection";
 import PlaceOrder from "./pages/PlaceOrder";
 import Cart from "./pages/Cart";
 import Orders from "./pages/Orders";
+import Verify from "./pages/Verify";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -47,6 +48,8 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
 
         <Route path="/orders" element={<Orders />} />
+
+        <Route path="/verify" element={<Verify />} />
       </Routes>
 
       <Footer />
