@@ -1,7 +1,15 @@
 # Project Title
 full stack E-commerce website
 
-## 🛠 Skills
-react.js, node.js, express.js, mongodb...
+<a href="https://e-commerce-client-henna-three.vercel.app/" target="_blank">Live Preview</a>
 
-<a href="https://e-commerce-client-henna-three.vercel.app/" target="_blank">Visit My Website</a>
+## Tech Stack & Tools
+Frontend (React, Tailwind,) 
+<br/>
+Backend (Node.js, Express.js)
+<br/>
+Database (MongoDB)
+<br/>
+Payment Gateway (Stripe, case on delivery)
+<br/>
+Authentication (JWT, OAuth)
