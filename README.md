@@ -2,10 +2,10 @@
 full stack E-commerce website
 
 ## Live Preview
-<br/>
+
 ### User Page
 <a href="https://e-commerce-client-henna-three.vercel.app/" target="_blank">Click Here</a>
-<br />
+
 ### Admin Dashboard 
 <a href="https://e-commerce-admin-kappa-eight.vercel.app/" target="_blank">Click Here</a>
 
