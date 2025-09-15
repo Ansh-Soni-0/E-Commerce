@@ -1,8 +1,13 @@
 # Project Title
 full stack E-commerce website
 
-#🔗 Links
-<a href="https://e-commerce-client-henna-three.vercel.app/" target="_blank">Live Preview</a>
+##Live Preview
+<br/>
+###User Page
+<a href="https://e-commerce-client-henna-three.vercel.app/" target="_blank">Click Here</a>
+<br />
+###Admin Dashboard 
+<a href="https://e-commerce-admin-kappa-eight.vercel.app/" target="_blank">Click Here</a>
 
 ## Tech Stack & Tools
 Frontend (React, Tailwind,) 
